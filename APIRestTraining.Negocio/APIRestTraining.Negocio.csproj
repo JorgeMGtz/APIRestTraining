@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\APIRestTraining.Datos\APIRestTraining.Datos.csproj" />
+  </ItemGroup>
+
 </Project>

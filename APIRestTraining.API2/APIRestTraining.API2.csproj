@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\APIRestTraining.Model\APIRestTraining.Model.csproj" />
+    <ProjectReference Include="..\APIRestTraining.Negocio\APIRestTraining.Negocio.csproj" />
+  </ItemGroup>
+
 </Project>

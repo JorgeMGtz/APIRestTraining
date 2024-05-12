@@ -8,11 +8,11 @@ namespace APIRestTraining.Model.Colegio
 {
     public class Alumnos
     {
-        public int idAlumnos {  get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public int idAlumno {  get; set; }
+        public string? Nombre { get; set; }
+        public string? Apellido { get; set; }
         public DateTime F_Nacimiento { get; set; }
         public int idCarrera { get; set; }
-        public string Telefono { get; set; }
+        public string? Telefono { get; set; }
     }
 }

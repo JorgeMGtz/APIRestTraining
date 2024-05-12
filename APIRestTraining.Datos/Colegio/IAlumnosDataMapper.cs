@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace APIRestTraining.Datos.Colegio
 {
-    internal interface IAlumnoDataMapper
+    public interface IAlumnosDataMapper
     {
-        Task<List<Alumnos>> ObtenerAlumnos(Alumnos almnos);
+        Task<int> AgregarAlumnos(Alumnos alumno);
+
+        Task<List<Alumnos>> ObtenerAlumnosFiltro(int? idCarrera = null);
     }
 }
